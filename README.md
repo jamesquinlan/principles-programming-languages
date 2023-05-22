@@ -30,7 +30,9 @@ Principles and techniques of high level programming language specification, incl
 **Object-Oriented Programming**: Object-oriented programming is a programming paradigm that emphasizes the use of objects and classes to organize and structure code. It provides encapsulation, inheritance, and polymorphism to enable code reuse and maintainability.
 
 
+## Topics
 
+[Introduction](topics/c1_intro.md)
 
 
 
