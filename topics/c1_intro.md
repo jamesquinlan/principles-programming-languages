@@ -5,8 +5,8 @@
 
 
 ## Goals
-* Introduce notions of programming languages
-* Outline basic concepts
+:white_check_mark: Introduce notions of programming languages
+:white_check_mark: Outline basic concepts
 
 We introduce the principles and concepts underlying programming languages.  It is not about specific programming languages, however, specific languages are used to illustrate these principles and concepts.  
 
