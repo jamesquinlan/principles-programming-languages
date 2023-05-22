@@ -1,7 +1,8 @@
 # Introduction
 
 > Thought is not merely expressed in words, it comes into existence through them - Lev Vygotsky.
-How we program influences how we think about computation and vice-versa - Louden & Lambert.
+
+> How we program influences how we think about computation and vice-versa - Louden & Lambert.
 
 We introduce the principles and concepts underlying programming languages.  It is not about specific programming languages, however, specific languages are used to illustrate these principles and concepts.  
 
