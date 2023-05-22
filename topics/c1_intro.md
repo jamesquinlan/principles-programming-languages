@@ -6,7 +6,7 @@
 
 ## Goals
 * Introduce notions of programming languages
-* Outline basic concepts
+* Outline basic concepts of programming language design
 
 We introduce the principles and concepts underlying programming languages.  It is not about specific programming languages, however, specific languages are used to illustrate these principles and concepts.  
 
