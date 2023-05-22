@@ -21,7 +21,10 @@ Principles and techniques of high level programming language specification, incl
 
 
 
-
+### Prerequisite
+* Knowledge and experience with at least one languge
+* Knowledge of common data structures
+* General knowledge of computational process(es) for problem solving
 
 
 
