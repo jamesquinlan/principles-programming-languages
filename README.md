@@ -3,6 +3,16 @@
 Principles and techniques of high level programming language specification, including syntax and semantics, and implementation methods. Languages are considered as formal constructs representing computable functions and the course presents basic results of computability theory. Methods of recognition for regular and context free languages, the functional alternative to the state based imperative paradigm, use of parse trees as control constructs, and concurrent programming synchronization primitives are also covered.
 
 
+
+
+### Prerequisite
+* Knowledge and experience with at least one languge
+* Knowledge of common data structures
+* General knowledge of computational process(es) for problem solving
+
+
+
+
 ## Principles and Techniques of Programming Languages
 
 **Syntax and Semantics**: Every programming language has its own syntax and semantics that define the rules for writing valid programs and their meaning, respectively. Syntax defines the structure and grammar of the language, while semantics defines the behavior of programs written in that language.
@@ -18,14 +28,6 @@ Principles and techniques of high level programming language specification, incl
 **Concurrency**: Concurrency is the ability of a programming language to handle multiple tasks or threads at the same time. A programming language can provide different synchronization primitives such as locks, semaphores, and monitors to manage concurrent access to shared resources.
 
 **Object-Oriented Programming**: Object-oriented programming is a programming paradigm that emphasizes the use of objects and classes to organize and structure code. It provides encapsulation, inheritance, and polymorphism to enable code reuse and maintainability.
-
-
-
-### Prerequisite
-* Knowledge and experience with at least one languge
-* Knowledge of common data structures
-* General knowledge of computational process(es) for problem solving
-
 
 
 
