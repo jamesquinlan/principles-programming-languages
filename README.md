@@ -1,5 +1,7 @@
 # Programming Languages Principles and Concepts
 
+Introduction to the fundamental concepts of formal languages, as well as the evolution and characteristics of major programming languages. Topics include finite-state automata, regular expressions, parsing, syntax and semantics, scope and binding, data types, and abstract data types.  
+
 Principles and techniques of high level programming language specification, including syntax and semantics, and implementation methods. Languages are considered as formal constructs representing computable functions and the course presents basic results of computability theory. Methods of recognition for regular and context free languages, the functional alternative to the state based imperative paradigm, use of parse trees as control constructs, and concurrent programming synchronization primitives are also covered.
 
 
