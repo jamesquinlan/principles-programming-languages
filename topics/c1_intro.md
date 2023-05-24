@@ -12,8 +12,32 @@ We introduce the principles and concepts underlying programming languages.  It i
 
 ### History of Programming Languages
 
+#### Machine Language
+
+At the lowest level, computers understand binary code.  For example, 16-bit machine language program containing 4 instructions could be:
+
+```
+0011011010011010
+0000000000000101
+0000000000000110
+1001110101011111
+```
+
+Different part of the 16-bits are used for operation, memory location, and data values.  __Opcode__ is the part (say, first 4 bits) for the operation.
 
 
+The programmer could use the following to enter these instructions:
+
+[![Machine Language Interface]()]()
+
+
+#### Assembly Language
+
+In the 1950's mnemonic symbols were used for instruction and memory locations.  The __assembler__ translates the symbolic assembly language code to binary machine code.  Here is a 1 line assembly code:
+
+```
+LD R1, FIRST
+```
 
 
 
