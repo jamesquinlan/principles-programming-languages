@@ -32,7 +32,8 @@ Principles and techniques of high level programming language specification, incl
 
 ## Topics
 
-[Introduction](topics/c1_intro.md)
+* [Introduction](topics/c1_intro.md)
+* [Design Criteria](topics/c2_design_criteria.md)
 
 
 
