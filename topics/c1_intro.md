@@ -44,8 +44,58 @@ LD R1, FIRST
 
 
 
+## Abstractions in Programming Languages
+
+Central to making programs easier to read, abstractions fall into two categories:
+
+1. __data abstraction__ 
+2. __control abstraction__
+
+### Data: Basic Abstractions
+
+Often the programmer cannot access of the hidden internal representaions of common data values.  For example, 
+integers are often sotred using two's complemnt representation.  Real numbers are stored using IEEE single- or double-precision machine representations.  The component parts are not accessible.
 
 
+
+### Data: Structured Abstractions
+
+A __data structure__ is a method of collecting and storing related data into a single unit.  The data structure can be viewed as a single unit contain a collection of parts.  The principle data structure is the __array__, in C
+
+```
+int x[10];
+```
+
+### Data: Unit Abstraction
+
+
+
+### Control: Basic Abstractions
+
+
+
+### Control: Structured Abstractions
+
+
+
+
+
+<!-- ------------------------------------- -->
+## Computational Paradigms
+
+Programming languages imitate and abstract the operations of a computer.
+
+
+
+
+
+<!-- ------------------------------------- -->
+## Language Defintion
+
+### Syntax
+
+
+### Semantics
 
 
 
