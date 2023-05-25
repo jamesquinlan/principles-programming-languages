@@ -28,7 +28,7 @@ Different part of the 16-bits are used for operation, memory location, and data 
 
 The programmer could use the following to enter these instructions:
 
-[![Machine Language Interface]()]()
+[![Machine Language Interface](./images/supercoder_2000_binary_keyboard.jpeg)](./images/supercoder_2000_binary_keyboard.jpeg)
 
 
 #### Assembly Language
