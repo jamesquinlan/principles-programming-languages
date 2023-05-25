@@ -108,8 +108,36 @@ A language definition has two components:
 
 ### Syntax
 
+Syntax is the __grammar__ of the language, describing ways the different parts may be combined to form sentences.  The grammar rule in C of the `if` statement follows:
+
+```
+<c-if-statement> ::= if (<expression>) <statement>
+    [else <statement>]
+```
+
+Note: The square brackets indicate an optional clause.
+
+The structure of the language's words, called __tokens__, is the __lexical structure__ (similar to spelling in natural language).  Other tokens in programming languages include: identifiers, operators (`+`,`*`), and punctuation such as the semicolon (;) and the period (.).
+
+
 
 ### Semantics
+
+Semantics is the meaning of the language (including the effects of execution).  Defining a language semantics is complex and may involve many contexts and mechanisms, thus making it difficult to specify.  As such, it is not customary to provide a formal definition of the semantics of a programming language.  However, some notational systems have been developed in attempt to formally define language semantics, such as: __operational semantics__, __denotational semantics__, and __axiomatic semantics__. 
+
+
+
+
+
+
+
+<!-- ------------------------------------- -->
+## Language Translation
+
+A __translator__ is needed for programming languages (to be useful).  A translator converts source code to machine code.  There are two types of translators:
+
+1. __Interpreter__
+2. __Compiler__ 
 
 
 
