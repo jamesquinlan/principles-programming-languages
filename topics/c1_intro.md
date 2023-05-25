@@ -4,6 +4,7 @@
 > How we program influences how we think about computation and vice-versa - Louden & Lambert.
 
 
+<!-- ------------------------------------- -->
 ## Goals
 * Introduce notions of programming languages
 * Outline basic concepts of programming language design
@@ -43,7 +44,7 @@ LD R1, FIRST
 
 
 
-
+<!-- ------------------------------------- -->
 ## Abstractions in Programming Languages
 
 Central to making programs easier to read, abstractions fall into two categories:
@@ -80,17 +81,30 @@ int x[10];
 
 
 
+
 <!-- ------------------------------------- -->
 ## Computational Paradigms
 
 Programming languages imitate and abstract the operations of a computer.
 
+1. __Imperative Language__: A sequential execution of instructions, using variables representing memory locations, and the use of assignment to change their values.  Imperative languages are based on the von Neumann model and represent most programming languages today.  This model has some restrictions to provide parallel copmutation or other nondeterministic computation that does not depend on order.  
+2. __Function Language__: Based on notion of a function as studied in the lambda calculus.  Allows consice, abstract, and precise code.
+3. __Logical Language__: Based on symbolic logic.  Allows concise, abstract, and precise code.
+4. __Object-oriented Language__: Allows writing reusable code that operators on objects, analog to real-world objects.  Makes use of intution about the real-world objects.  Object-oriented language is an extension of imperative language (using sequential execution of values in memory locations).  Allows parallel processing.  
 
 
 
 
 <!-- ------------------------------------- -->
 ## Language Defintion
+
+Formal definition and standardization of a language is desirable.  Organizations including ANSI (American National Standards Institute) and ISO (International Organization for Standardization) publish definitions for many languages, i.e., C, C++, and Lisp. 
+
+A language definition has two components:
+1. __Syntax__: structure of the language
+2. __Semantics__: meaning of the language
+
+
 
 ### Syntax
 
@@ -103,7 +117,7 @@ Programming languages imitate and abstract the operations of a computer.
 
 
 
-
+<!-- ------------------------------------- -->
 ## References
 ```
 @book{louden2011programming,
