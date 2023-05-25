@@ -26,7 +26,7 @@ At the lowest level, computers understand binary code.  For example, 16-bit mach
 Different part of the 16-bits are used for operation, memory location, and data values.  __Opcode__ is the part (say, first 4 bits) for the operation.
 
 
-The programmer could use the following to enter these instructions:
+The programmer could use the _Supercoder 2000_ to enter these instructions:
 
 [![Machine Language Interface](../images/supercoder_2000_binary_keyboard.jpeg)](../images/supercoder_2000_binary_keyboard.jpeg)
 
