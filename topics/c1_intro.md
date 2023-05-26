@@ -134,19 +134,15 @@ Semantics is the meaning of the language (including the effects of execution).  
 <!-- ------------------------------------- -->
 ## Language Translation
 
-A __translator__ is needed for programming languages (to be useful).  A translator converts source code to machine code.  There are two types of translators:
+A __translator__ is needed for programming languages (to be useful).  A translator converts source code to target code.  There are two types of translators:
 
-1. __Interpreter__
-2. __Compiler__ 
-
-
-### Interpreter
-
-
-### Compiler
+1. __Interpreter__: the translator executes the program directly (Simulation of sorts)
+2. __Compiler__: the translator produces equivelant code suitable for execution (e.g., machine code).  
 
 Compilation is at least a two-step process: 
-1. __source code__ is input to the compiler, and the __target program__ is the output from the compiler.  The target is then executed (if it is machine code).  In some cases the target language is assembly language, and needs further translated by an __assembler__ into __object code__ (machine language).  In other cases, the target language is a form of low-level code called __byte code__.  Then the byte code is executed by an interpreter called a __virtual machine__.  Java and Python are comiled to  byte code and excuted on virtual machines, whereas C and C++ are compiled to machine code and executed directly on hardware.
+__Source code__ is input to the compiler, and the __target program__ is the output from the compiler.  The target is then executed (if it is machine code).  In some cases the target language is assembly language, and needs further translated by an __assembler__ into __object code__ (machine language).  In other cases, the target language is a form of low-level code called __byte code__.  Then the byte code is executed by an interpreter called a __virtual machine__.  Java and Python are comiled to  byte code and excuted on virtual machines, whereas C and C++ are compiled to machine code and executed directly on hardware.
+
+
 
 
 
