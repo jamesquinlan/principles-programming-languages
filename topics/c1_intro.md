@@ -67,17 +67,46 @@ A __data structure__ is a method of collecting and storing related data into a s
 int x[10];
 ```
 
+A text file is another example.  Text file's structure is independent of storage medium.  
+A data structure is an abstraction that hides a group of component parts, allowing programmer to view it as a single entity.
+
+
+
+
 ### Data: Unit Abstraction
 
+Grouping related data and operations on the data into files or language structures (e.g., modules, packages, libraries, classes) is useful.  These support access conventions and restrictions (information hiding).  Unit abstraction is often associated with __abstract data type__ (class objects).  Another property of unit abstraction is __reusability__.  
 
 
 ### Control: Basic Abstractions
+
+Assignment and arithmetic are two basic control abstractions.  Programmers simply type:
+
+```
+z = x + y
+```
+
+Under the hood there are complex memory functions and arithmetic operations happening.
+
 
 
 
 ### Control: Structured Abstractions
 
+Selection and iteration are two examples of structure control abstraction.  For example, in C++ we have, 
 
+```
+int sum = 0;
+for (int i = 0; i < 10; ++i){
+    int data  = list[i];
+    if (data < 0)
+        data = -data;
+    sum += data;
+}
+```
+Can you describe exactly how the computer handles the `for` and `if` statements?  This is structured control abstraction.
+
+Other structured control abstraction include: __subprograms__, __functions__, and __maps__.
 
 
 
