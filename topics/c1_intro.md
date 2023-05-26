@@ -140,7 +140,13 @@ A __translator__ is needed for programming languages (to be useful).  A translat
 2. __Compiler__ 
 
 
+### Interpreter
 
+
+### Compiler
+
+Compilation is at least a two-step process: 
+1. __source code__ is input to the compiler, and the __target program__ is the output from the compiler.  The target is then executed (if it is machine code).  In some cases the target language is assembly language, and needs further translated by an __assembler__ into __object code__ (machine language).  In other cases, the target language is a form of low-level code called __byte code__.  Then the byte code is executed by an interpreter called a __virtual machine__.  Java and Python are comiled to  byte code and excuted on virtual machines, whereas C and C++ are compiled to machine code and executed directly on hardware.
 
 
 
