@@ -40,4 +40,16 @@ __Programmer efficiency__ is another consideration.  How quickly can a programme
 
  
 2. __Read- and writability__: By the 1960's, efficiency made room for clear and concise code (which is sometimes at odds with efficiency).  COBOL and Algol are two examples designed with writability in mind.  COBOL designers attempted to increased the readability by making language more English like, but was too verbose and actually more difficult to read.  Nevertheless, readability was an intended design feature!
-3.  
+
+
+
+### Regularity (Principle of least astonishment)
+
+Regularity refers to the degree that features of the language are integrated.  Regularity is inversely related to restrictions, strange interactions, and surprises.  That is, the greater the regularity, the fewer surprises (least astonishment).  
+
+Regularity is sometimes subdivided into three concepts:
+1. __generaltity__: avoids special cases whenever possible.  For example, in C, `==` cannot be used to compare arrays, but must be compared element by element.  That is, the equality operator lacks generality.  Overloading operators such as `+` is an example of language generality.  The operator can be applied to new objects.  
+2. __orthogonal design__: allows constructs to be combined in meaningful ways.  
+3. __uniformity__
+
+
