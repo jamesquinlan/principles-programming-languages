@@ -4,16 +4,19 @@ Consider the following questions:
 1. What is a good programming language design?
 2. What criteria is used to determine if it is good?
 
-Language abstractino and complexity control were key requirements for a modern programming language.
+Language __abstraction__ and __complexity control__ are key requirements for a modern programming language.
 
 According to Louden & Lambert (2011), a language is "successful" if
 1. Acheieves designers goals
 2. Attains widespread use and support in application areas
 3. Serves as a model for other languages that are successful
 
-There are several factors that help a language be successful.  For example, the Internet helped Java and Python's success in addition to their free distribution.  UNIX is largely responsible for the success of C.  Smalltalk, although not widespread use, has served as a model for many object-oriented programming languages.  
+There are several __factors of success__ for a language.  For example, 
+* the Internet helped Java and Python's success in addition to their free distribution;
+* UNIX is largely responsible for the success of C;  
+* Smalltalk, although not widespread use, has served as a model for many object-oriented programming languages;
+* Is the language designed by small group of individuals (C, C++) or a large community (COBOL)?
 
-Is the language designed by small group of individuals (C, C++) or a large community (COBOL)?
 
 
 
@@ -53,3 +56,30 @@ Regularity is sometimes subdivided into three concepts:
 3. __uniformity__
 
 
+Regularity in programming language design refers to the consistency and predictability of the language's syntax, semantics, and overall structure. It implies that the language follows a set of well-defined rules and patterns that are easy to understand and apply consistently.
+
+Here are some aspects of regularity in programming language design:
+
+* Syntax Consistency: Regular programming languages have consistent and unambiguous syntax rules. The syntax should be designed to minimize surprises and confusion, allowing programmers to write code without unexpected behavior. For example, if a language uses parentheses to denote function calls, it should consistently apply this rule throughout the language.
+
+* Semantic Coherence: Regular programming languages have coherent semantics, meaning that the behavior of language constructs is intuitive and predictable. The language's features and constructs should follow logical and consistent rules, making it easier for programmers to reason about the behavior of their code.
+
+* Orthogonality: Regular languages strive for orthogonality, which means that language features should be independent and composable. Orthogonal languages have a small set of primitive constructs that can be combined in various ways to express complex concepts. This reduces the need for special cases and exceptions, leading to simpler language rules.  orthogonality in programming language design allows different language features to work independently and harmoniously together. This independence and consistency enable programmers to compose code in a more flexible and expressive manner, promoting code readability, maintainability, and reusability.
+
+* Minimal Surprises: Regular languages avoid unexpected behaviors and edge cases. Programmers should be able to anticipate how code will execute based on their understanding of the language's rules. Minimizing surprises helps reduce bugs and makes code easier to maintain and debug.
+
+ * Readability and Writability: Regular languages are designed to be readable and writable, meaning that code written in the language is easy to understand and express. Regularity contributes to the consistency of the language, which makes it easier for programmers to learn, write, and maintain code.
+
+
+Overall, regularity in programming language design aims to create a language that is predictable, consistent, and intuitive, enabling programmers to write correct and maintainable code more easily.
+
+
+
+
+```
+if x > 10 {
+    while y < 100 {
+        // Code block
+    }
+}
+```
