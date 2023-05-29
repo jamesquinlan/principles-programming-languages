@@ -36,9 +36,25 @@ int i = 10;
 i = 10
 ```
 
-__Programmer efficiency__ is another consideration.  How quickly can a programmer develop a program?  This is directly related to the programming language's __expressiveness__.  However, there is a trade-off usually between programmer efficiency and execution efficiency.  For example, by not having to provide explicit data types (e.g., `int x;`) or use more syntax (e.g., `if (x > 0){}`), programmers can code more efficiently, however, the strict typing of varaibles increases execution efficiency.  However, it has been found that coding is only about 10% of the process, whereas debugging and maintaining is around 90%.  Therefore, being able to detect bugs is much more important with respect to programmer efficiency.  
+__Programmer efficiency__ is another consideration.  How quickly can a programmer develop a program?  This directly relates to the programming language's __expressiveness__.  However, there is usually a trade-off between programmer efficiency and execution efficiency.  For example, by not having to provide explicit data types (e.g., `int x;`) or use more syntax (e.g., `if (x > 0){}`), programmers can code more efficiently, however, the strict typing of variables increases execution efficiency.  However, it has been found that coding is only about 10% of the process, whereas debugging and maintaining is around 90%.  Therefore, detecting bugs is much more important to programmer efficiency.  
 
+The **efficiency principle** in programming language design emphasizes the importance of creating languages and language features that promote the efficient execution of programs.  The efficiency principle aims to minimize unnecessary computational overhead, reduce resource usage, and optimize performance.  Here are some key considerations related to the efficiency principle:
 
+* **Execution Speed**: An efficient programming language design focuses on enabling the fast execution of programs.  This includes designing efficient control flow mechanisms, minimizing overhead in function calls, and optimizing common operations.  In addition, language features that minimize unnecessary runtime checks, promote efficient data access patterns, and provide low-level control can contribute to faster execution.
+
+* **Memory Efficiency**: Memory usage is critical to efficiency.  An efficient language design incorporates memory management mechanisms that minimize memory leaks, reduce fragmentation, and optimize memory allocation and deallocation.  It may include features such as automatic memory management (garbage collection), support for manual memory management, or advanced memory optimization techniques.
+
+* **Resource Utilization**: Efficient language design aims to optimize system resources.  This includes considerations for efficient usage of CPU cycles, I/O operations, network resources, and other system-level resources.  Language features that enable asynchronous or parallel programming, efficient I/O handling, and resource-aware abstractions contribute to better resource utilization.
+
+* **Compilation and Interpretation Efficiency**: Efficiency also encompasses the compilation or interpretation process of the language itself.  An efficient language design considers techniques for optimizing the compilation or interpretation process to generate high-performance executable code.  This may involve optimizations such as just-in-time (JIT) compilation, static analysis, code transformations, or other compiler/interpreter techniques.
+
+* **Language Portability**: An efficient language design aims to be portable across different hardware architectures and operating systems without sacrificing performance.  It may provide abstractions or mechanisms that allow programs written in the language to efficiently utilize system-specific features when available while also ensuring fallback mechanisms for platforms without such features.
+
+* **Performance Predictability**: Efficiency in language design includes providing predictable performance characteristics.  Developers should reasonably expect how code will perform under different scenarios.  Consistent performance characteristics allow developers to reason about the efficiency of their code, optimize bottlenecks, and make informed design decisions.
+
+Efficiency is often a balancing act, as optimizing for one aspect may introduce trade-offs in other areas, such as code readability, maintainability, or development productivity.  Therefore, an efficient language design must carefully consider these trade-offs and balance performance and other important factors.
+
+By adhering to the efficiency principle, programming languages can empower developers to write high-performance code, efficiently use system resources, and build scalable and responsive software systems.
 
 
  
