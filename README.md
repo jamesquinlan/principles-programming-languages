@@ -89,3 +89,25 @@ Principles and techniques of high level programming language specification, incl
 ```
 
 
+
+## Grade Assignments
+
+The following are standard letter grade cutoffs.
+
+
+| Range (in %)                   | Grade |
+|--------------------------------|--------|
+| 93 - 100                       |   A    |
+| 90 - 92.9                      |   A-   |
+| 87 - 89.9                      |   B+   |
+| 83 - 86.9                      |   B    |
+| 80 - 82.9                      |   B-   |
+| 77 - 79.9                      |   C+   |
+| 73 - 76.9                      |   C    |
+| 70 - 72.9                      |   C-   |
+| 67 - 69.9                      |   D+   |
+| 63 - 66.9                      |   D    |
+| 60 - 62.9                      |   D-   |
+| < 60                           |   F    |
+
+
