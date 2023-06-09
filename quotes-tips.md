@@ -1,8 +1,5 @@
 # Quotes and Tips for Programmers
 
-## Quotes
-
-1. "_Whatever you undertake, act with prudence and consider the consequences_" - Anon
 
 ## Tips
 
@@ -12,6 +9,9 @@ Many of the following tips can be found in Henney (2010). \cite{henney201097}
 2. Comment only what the code fails to say.
 3. Machine numbers are not _real_.
 
+## Quotes
+
+1. "_Whatever you undertake, act with prudence and consider the consequences_" - Anon
 
 
 ### Reference 
