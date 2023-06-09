@@ -52,6 +52,13 @@ Principles and techniques of high level programming language specification, incl
   publisher={Cambridge University Press}
 }
 
+@book{henney201097,
+  title={97 things every programmer should know: collective wisdom from the experts},
+  author={Henney, Kevlin},
+  year={2010},
+  publisher={O'Reilly Media}
+}
+
 @book{louden2011programming,
   title={Programming languages: principles and practices},
   author={Louden, Kenneth C and Lambert, Kenneth A},
@@ -86,13 +93,20 @@ Principles and techniques of high level programming language specification, incl
   year={2004},
   publisher={John Wiley \& Sons}
 }
+
+@book{vygotsky2012thought,
+  title={Thought and language},
+  author={Vygotsky, Lev S},
+  year={2012},
+  publisher={MIT press}
+}
 ```
 
 
 
-## Grade Assignments
+## Grade Cutoffs
 
-The following are standard letter grade cutoffs.
+Standard letter grade cutoffs.
 
 
 | Range (in %)                   | Grade |
