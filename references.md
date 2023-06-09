@@ -2,15 +2,11 @@
 ## References
 
 ```
-@article{chitil2009essentials,
-  title={Essentials of Programming Languages by Daniel P. Friedman and Mitchell Wand, MIT Press, ISBN 978-0-262-06279-4, 2008.},
-  author={Chitil, Olaf},
-  journal={Journal of Functional Programming},
-  volume={19},
-  number={6},
-  pages={723--725},
-  year={2009},
-  publisher={Cambridge University Press}
+@book{friedman2001essentials,
+  title={Essentials of programming languages},
+  author={Friedman, Daniel P and Wand, Mitchell and Haynes, Christopher Thomas},
+  year={2001},
+  publisher={MIT press}
 }
 
 @book{henney201097,
