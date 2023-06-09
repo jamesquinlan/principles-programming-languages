@@ -9,6 +9,8 @@
 Many of the following tips can be found in Henney (2010). \cite{henney201097}
 
 1. Reduce Technical Debt.
+2. Comment only what the code fails to say.
+3. Machine numbers are not real.
 
 
 
