@@ -40,7 +40,7 @@ Principles and techniques of high level programming language specification, incl
 
 ## References
 
-[References](references.md)
+[BibTeX](references.md)
 
 
 
