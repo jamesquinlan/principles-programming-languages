@@ -18,8 +18,6 @@ There are several __factors of success__ for a language.  For example,
 * Is the language designed by small group of individuals (C, C++) or a large community (COBOL)?
 
 
-
-
 ## General Design Criteria
 
 Readability, abstraction, and complexity control are central to most design decisions.
@@ -86,7 +84,7 @@ Here are some aspects of regularity in programming language design:
 
 * Minimal Surprises: Regular languages avoid unexpected behaviors and edge cases.  Programmers should be able to anticipate how code will execute based on their understanding of the language's rules.  Minimizing surprises helps reduce bugs and makes code easier to maintain and debug.
 
- * Readability and Writability: Regular languages are designed to be readable and writable, meaning that code written in the language is easy to understand and express.  Regularity contributes to the language's consistency, making it easier for programmers to learn, write, and maintain code.
+* Readability and Writability: Regular languages are designed to be readable and writable, meaning that code written in the language is easy to understand and express.  Regularity contributes to the language's consistency, making it easier for programmers to learn, write, and maintain code.
 
 
 Overall, **regularity** in programming language design aims to create a predictable, consistent, and intuitive language, enabling programmers to write correct and maintainable code more easily.
