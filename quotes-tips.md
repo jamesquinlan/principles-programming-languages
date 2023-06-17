@@ -25,4 +25,11 @@ Many of the following tips can be found in Henney (2010). \cite{henney201097}
   year={2010},
   publisher={O'Reilly Media}
 }
+
+@book{martin2009clean,
+  title={Clean code: a handbook of agile software craftsmanship},
+  author={Martin, Robert C},
+  year={2009},
+  publisher={Pearson Education}
+}
 ```
