@@ -9,14 +9,14 @@ Many of the following tips can be found in Henney (2010). \cite{henney201097}
 2. Comment only on what the code fails to say.
 3. Machine numbers are not _real_.
 4. Leave the code better than you found it.  This is the "Boy Scout Rule" analog of leaving  a campsite better than you found it.
-5. Functions should do one thing, and do it well.
+5. Functions should do one thing and do it well.
 
 ## Quotes
 
 1. "_Whatever you undertake, act with prudence and consider the consequences_" - Anon
 
 
-### Reference 
+### References
 
 ```
 @book{henney201097,
