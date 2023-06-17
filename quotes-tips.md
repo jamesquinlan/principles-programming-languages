@@ -6,9 +6,10 @@
 Many of the following tips can be found in Henney (2010). \cite{henney201097}
 
 1. Reduce Technical Debt.
-2. Comment only what the code fails to say.
+2. Comment only on what the code fails to say.
 3. Machine numbers are not _real_.
-4. Leave code better than you found it.  This is "Boy Scout Rule" analog of leaving  a campsite better than you found it.
+4. Leave the code better than you found it.  This is the "Boy Scout Rule" analog of leaving  a campsite better than you found it.
+5. Functions should do one thing, and do it well.
 
 ## Quotes
 
