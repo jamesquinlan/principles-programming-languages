@@ -70,3 +70,6 @@ Standard letter grade cutoffs.
 ## Language References
 
 
+<!-- Various Resources -->
+<!-- https://www.public.asu.edu/~ychen10/book/IntroPl.html -->
+<!-- https://www.public.asu.edu/~ychen10/teaching/cse240/SyllabusInfoCSE240.pdf -->
