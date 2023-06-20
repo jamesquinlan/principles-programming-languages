@@ -9,13 +9,13 @@
 * Introduce notions of programming languages
 * Outline basic concepts of programming language design
 
-We introduce the principles and concepts underlying programming languages.  It is not about specific programming languages, however, specific languages are used to illustrate these principles and concepts.  
+We introduce the principles and concepts underlying programming languages.  It is not about specific programming languages; however, particular languages illustrate these principles and concepts.  
 
 ### History of Programming Languages
 
 #### Machine Language
 
-At the lowest level, computers understand binary code.  For example, 16-bit machine language program containing 4 instructions could be:
+At the lowest level, computers understand binary code.  For example, a 16-bit machine language program containing four instructions could be:
 
 ```
 0011011010011010
@@ -24,7 +24,7 @@ At the lowest level, computers understand binary code.  For example, 16-bit mach
 1001110101011111
 ```
 
-Different part of the 16-bits are used for operation, memory location, and data values.  __Opcode__ is the part (say, first 4 bits) for the operation.
+Different parts of the 16 bits are used for operation, memory location, and data values.  __Opcode__ is the part (say, first 4 bits) for the operation.
 
 
 The programmer could use the _Supercoder 2000_ to enter these instructions:
@@ -34,7 +34,7 @@ The programmer could use the _Supercoder 2000_ to enter these instructions:
 
 #### Assembly Language
 
-In the 1950's mnemonic symbols were used for instruction and memory locations.  The __assembler__ translates the symbolic assembly language code to binary machine code.  Here is a 1 line assembly code:
+In the 1950s, mnemonic symbols were used for instruction and memory locations.  The __assembler__ translates the symbolic assembly language code to binary machine code.  Here is a 1 line assembly code:
 
 ```
 LD R1, FIRST
@@ -54,46 +54,46 @@ Central to making programs easier to read, abstractions fall into two categories
 
 ### Data: Basic Abstractions
 
-Often the programmer cannot access of the hidden internal representaions of common data values.  For example, 
-integers are often sotred using two's complemnt representation.  Real numbers are stored using IEEE single- or double-precision machine representations.  The component parts are not accessible.
+Often the programmer cannot access the hidden internal representations of common data values.  For example, 
+integers are usually sorted using two's complement representation.  Real numbers are stored using IEEE single- or double-precision machine representations.  The components are not accessible.
 
 
 
 ### Data: Structured Abstractions
 
-A __data structure__ is a method of collecting and storing related data into a single unit.  The data structure can be viewed as a single unit contain a collection of parts.  The principle data structure is the __array__, in C
+A __data structure__ is a method of collecting and storing related data into a single unit.  The data structure can be viewed as a single unit containing a collection of parts.  The principle data structure is the __array__, in C
 
 ```
 int x[10];
 ```
 
-A text file is another example.  Text file's structure is independent of storage medium.  
-A data structure is an abstraction that hides a group of component parts, allowing programmer to view it as a single entity.
+A text file is another example.  The text file's structure is independent of the storage medium.  
+A data structure is an abstraction that hides a group of component parts, allowing the programmer to view it as a single entity.
 
 
 
 
 ### Data: Unit Abstraction
 
-Grouping related data and operations on the data into files or language structures (e.g., modules, packages, libraries, classes) is useful.  These support access conventions and restrictions (information hiding).  Unit abstraction is often associated with __abstract data type__ (class objects).  Another property of unit abstraction is __reusability__.  
+Grouping related data and operations on the data into files or language structures (e.g., modules, packages, libraries, classes) is helpful. These support access conventions and restrictions (information hiding).  Unit abstraction is often associated with __abstract data type__ (class objects).  Another property of unit abstraction is __reusability__.  
 
 
 ### Control: Basic Abstractions
 
-Assignment and arithmetic are two basic control abstractions.  Programmers simply type:
+Assignment and arithmetic are two essential control abstractions.  Programmers type:
 
 ```
 z = x + y
 ```
 
-Under the hood there are complex memory functions and arithmetic operations happening.
+Under the hood, complex memory functions and arithmetic operations are happening.
 
 
 
 
 ### Control: Structured Abstractions
 
-Selection and iteration are two examples of structure control abstraction.  For example, in C++ we have, 
+Selection and iteration are two examples of structure control abstraction.  For example, in C++, we have, 
 
 ```
 int sum = 0;
@@ -104,7 +104,7 @@ for (int i = 0; i < 10; ++i){
     sum += data;
 }
 ```
-Can you describe exactly how the computer handles the `for` and `if` statements?  This is structured control abstraction.
+Can you describe exactly how the computer handles the `for` and `if` statements?  This is a structured control abstraction.
 
 Other structured control abstraction include: __subprograms__, __functions__, and __maps__.
 
@@ -116,18 +116,18 @@ Other structured control abstraction include: __subprograms__, __functions__, an
 
 Programming languages imitate and abstract the operations of a computer.
 
-1. __Imperative Language__: A sequential execution of instructions, using variables representing memory locations, and the use of assignment to change their values.  Imperative languages are based on the von Neumann model and represent most programming languages today.  This model has some restrictions to provide parallel copmutation or other nondeterministic computation that does not depend on order.  
-2. __Function Language__: Based on notion of a function as studied in the lambda calculus.  Allows consice, abstract, and precise code.
+1. __Imperative Language__: A sequential execution of instructions, using variables representing memory locations and the use of assignments to change their values.  Imperative languages are based on the von Neumann model and represent most programming languages today.  This model has some restrictions to provide parallel computation or other nondeterministic computation that does not depend on the order.  
+2. __Function Language__: Based on the notion of a function as studied in lambda calculus.  Allows concise, abstract, and precise code.
 3. __Logical Language__: Based on symbolic logic.  Allows concise, abstract, and precise code.
-4. __Object-oriented Language__: Allows writing reusable code that operators on objects, analog to real-world objects.  Makes use of intution about the real-world objects.  Object-oriented language is an extension of imperative language (using sequential execution of values in memory locations).  Allows parallel processing.  
+4. __Object-oriented Language__: Allows writing reusable code that operators on objects analog to real-world objects.  Makes use of intuition about real-world objects.  Object-oriented language extends imperative language (using sequential execution of values in memory locations).  Allows parallel processing.  
 
 
 
 
 <!-- ------------------------------------- -->
-## Language Defintion
+## Language Definition
 
-Formal definition and standardization of a language is desirable.  Organizations including ANSI (American National Standards Institute) and ISO (International Organization for Standardization) publish definitions for many languages, i.e., C, C++, and Lisp. 
+Formal definition and standardization of a language are desirable.  Organizations, including ANSI (American National Standards Institute) and ISO (International Organization for Standardization), publish definitions for many languages, i.e., C, C++, and Lisp. 
 
 A language definition has two components:
 1. __Syntax__: structure of the language
@@ -137,7 +137,7 @@ A language definition has two components:
 
 ### Syntax
 
-Syntax is the __grammar__ of the language, describing ways the different parts may be combined to form sentences.  The grammar rule in C of the `if` statement follows:
+Syntax is the language's __grammar__, describing ways the different parts may be combined to form sentences.  The grammar rule in C of the `if` statement follows:
 
 ```
 <c-if-statement> ::= if (<expression>) <statement>
@@ -146,13 +146,13 @@ Syntax is the __grammar__ of the language, describing ways the different parts m
 
 Note: The square brackets indicate an optional clause.
 
-The structure of the language's words, called __tokens__, is the __lexical structure__ (similar to spelling in natural language).  Other tokens in programming languages include: identifiers, operators (`+`,`*`), and punctuation such as the semicolon (;) and the period (.).
+The structure of the language's words, called __tokens__, is the __lexical structure__ (similar to spelling in natural language).  Other tokens in programming languages include identifiers, operators (`+`,`*`), and punctuation such as the semicolon (;) and the period (.).
 
 
 
 ### Semantics
 
-Semantics is the meaning of the language (including the effects of execution).  Defining a language semantics is complex and may involve many contexts and mechanisms, thus making it difficult to specify.  As such, it is not customary to provide a formal definition of the semantics of a programming language.  However, some notational systems have been developed in attempt to formally define language semantics, such as: __operational semantics__, __denotational semantics__, and __axiomatic semantics__. 
+Semantics is the meaning of the language (including the effects of execution).  Defining a language's semantics is complex and may involve many contexts and mechanisms, thus making it difficult to specify.  As such, it is optional to provide a formal definition of the semantics of a programming language.  However, some notational systems have been developed to define language semantics formally, such as __operational semantics__, __denotational semantics__, and __axiomatic semantics__. 
 
 
 
@@ -166,10 +166,10 @@ Semantics is the meaning of the language (including the effects of execution).  
 A __translator__ is needed for programming languages (to be useful).  A translator converts source code to target code.  There are two types of translators:
 
 1. __Interpreter__: the translator executes the program directly (Simulation of sorts)
-2. __Compiler__: the translator produces equivelant code suitable for execution (e.g., machine code).  
+2. __Compiler__: the translator produces equivalent code suitable for execution (e.g., machine code).  
 
-Compilation is at least a two-step process: 
-__Source code__ is input to the compiler, and the __target program__ is the output from the compiler.  The target is then executed (if it is machine code).  In some cases the target language is assembly language, and needs further translated by an __assembler__ into __object code__ (machine language).  In other cases, the target language is a form of low-level code called __byte code__.  Then the byte code is executed by an interpreter called a __virtual machine__.  Java and Python are comiled to  byte code and excuted on virtual machines, whereas C and C++ are compiled to machine code and executed directly on hardware.
+The compilation is at least a two-step process: 
+__Source code__ is input to the compiler, and the __target program__ is the output from the compiler.  The target is then executed (if it is machine code).  In some cases, the target language is assembly language and needs to be further translated by an __assembler__ into __object code__ (machine language).  In other cases, the target language is a low-level code called __byte code__.  Then the byte code is executed by an interpreter called a __virtual machine__.  Java and Python are compiled to  byte code and executed on virtual machines, whereas C and C++ are compiled to machine code and executed directly on hardware.
 
 
 
