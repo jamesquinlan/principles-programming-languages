@@ -41,10 +41,6 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 * [Design Criteria](topics/c2_design_criteria.md)
 
 
-## References
-
-[BibTeX](references.md)
-
 
 
 ## Grade Cutoffs
@@ -73,9 +69,17 @@ Standard letter grade cutoffs.
 
 
 
-## Language References
+
+## Reference List
+
+[BibTeX](references.md)
 
 
+
+
+
+
+<!-- ## Language References -->
 <!-- Various Resources -->
 <!-- https://www.public.asu.edu/~ychen10/book/IntroPl.html -->
 <!-- https://www.public.asu.edu/~ychen10/teaching/cse240/SyllabusInfoCSE240.pdf -->
