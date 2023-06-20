@@ -7,7 +7,7 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 
 
 
-> A Programming Language describes what sequences are allowed (the syntax) and what they mean (the semantics).
+> A **Programming Language** describes what sequences are allowed (the syntax) and what they mean (the semantics).
 
 
 ### Prerequisite
