@@ -2,9 +2,9 @@
 
 Consider the following questions:
 1.  What is a good programming language design?
-2.  What criteria is used to determine if it is good?
+2.  What criteria are used to determine if it is good?
 
-Language __abstraction__ and __complexity control__ are key requirements for a modern programming language.
+Language __abstraction__ and __complexity control__ are critical requirements for a modern programming language.
 
 According to Louden & Lambert (2011), a language is "successful" if
 1.  Acheieves designers goals
@@ -13,9 +13,9 @@ According to Louden & Lambert (2011), a language is "successful" if
 
 There are several __factors of success__ for a language.  For example, 
 * the Internet helped Java and Python's success in addition to their free distribution;
-* UNIX is largely responsible for the success of C;  
+* UNIX is mainly responsible for the success of C;  
 * Smalltalk, although not widespread use, has served as a model for many object-oriented programming languages;
-* Is the language designed by small group of individuals (C, C++) or a large community (COBOL)?
+* Is the language designed by a small group of individuals (C, C++) or a large community (COBOL)?
 
 
 ## General Design Criteria
@@ -52,13 +52,13 @@ The **efficiency principle** in programming language design emphasizes the impor
 
 * **Performance Predictability**: Efficiency in language design includes providing predictable performance characteristics.  Developers should reasonably expect how code will perform under different scenarios.  Consistent performance characteristics allow developers to reason about the efficiency of their code, optimize bottlenecks, and make informed design decisions.
 
-Efficiency is often a balancing act, as optimizing for one aspect may introduce trade-offs in other areas, such as code readability, maintainability, or development productivity.  Therefore, an efficient language design must carefully consider these trade-offs and balance performance and other important factors.
+Efficiency is often a balancing act, as optimizing for one aspect may introduce trade-offs in other areas, such as code readability, maintainability, or development productivity.  Therefore, an efficient language design must carefully consider these trade-offs and balance performance and other essential factors.
 
 By adhering to the efficiency principle, programming languages can empower developers to write high-performance code, efficiently use system resources, and build scalable and responsive software systems.
 
 
  
-2.  __Read- and writability__: By the 1960's, efficiency made room for clear and concise code (sometimes at odds with efficiency).  COBOL and Algol are two examples designed with writability in mind.  COBOL designers attempted to increase the readability by making the language more English-like, but it was too lengthy and more difficult to read.  Nevertheless, readability was an intended design feature!
+2.  __Read- and writability__: By the 1960s, efficiency made room for clear and concise code (sometimes at odds with efficiency).  COBOL and Algol are two examples designed with writability in mind.  COBOL designers attempted to increase the readability by making the language more English-like, but it was too lengthy and difficult to read.  Nevertheless, readability was an intended design feature!
 
 
 
@@ -80,7 +80,7 @@ Here are some aspects of regularity in programming language design:
 
 * Semantic Coherence: Regular programming languages have coherent semantics, meaning that the behavior of language constructs is intuitive and predictable.  The language's features and constructs should follow logical and consistent rules, making it easier for programmers to reason about the behavior of their code.
 
-* Orthogonality: Regular languages strive for orthogonality, meaning language features should be independent and composable.  Orthogonal languages have a small set of primitive constructs that can be combined in various ways to express complex concepts.  This reduces the need for special cases and exceptions, leading to simpler language rules.  Orthogonality in programming language design allows different features to work independently and harmoniously.  This independence and consistency enable programmers to compose code in a more flexible and expressive manner, promoting code readability, maintainability, and reusability.
+* Orthogonality: Regular languages strive for orthogonality, meaning language features should be independent and composable.  Orthogonal languages have a small set of primitive constructs that can be combined in various ways to express complex concepts.  This reduces the need for exceptional cases and exceptions, leading to more straightforward language rules.  Orthogonality in programming language design allows different features to work independently and harmoniously.  This independence and consistency enable programmers to compose code more flexibly and expressively, promoting code readability, maintainability, and reusability.
 
 * Minimal Surprises: Regular languages avoid unexpected behaviors and edge cases.  Programmers should be able to anticipate how code will execute based on their understanding of the language's rules.  Minimizing surprises helps reduce bugs and makes code easier to maintain and debug.
 
