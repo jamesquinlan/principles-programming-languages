@@ -9,6 +9,6 @@ QFT supports the development of transferable skills that are essential for succe
 
 ## Q-Foci
 
-The following are a list of question prompts (a Q-focus) with some sample questions listed. 
+The following is a list of question prompts (a Q-focus) with some sample questions. 
 
 [Programming Languages](1.md)
