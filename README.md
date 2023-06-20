@@ -69,7 +69,9 @@ Standard letter grade cutoffs.
 
 
 ## Online Editor/Compiler
-[OneCompiler](https://onecompiler.com) supports more than 35 programming languages, including all popular languages like Java, Python, C, C++, NodeJS, Javascript, Groovy, Jshell & Haskell, TCL, Lua, Ada, Common Lisp, D Language, Elixir, Erlang, F#, Fortran, Assembly, Scala, Php, Python2, C#, Perl, Ruby, Go, R, VB.net, Racket, Ocaml, HTML, and several database languages.  OneCompiler helps users to write, run and share code online.
+[OneCompiler](https://onecompiler.com) supports more than 50 programming languages, including all popular languages like Java, Python, C, C++, NodeJS, Javascript, Groovy, Jshell & Haskell, TCL, Lua, Ada, Common Lisp, D Language, Elixir, Erlang, F#, Fortran, Assembly, Scala, Php, Python2, C#, Perl, Ruby, Go, R, VB.net, Racket, Ocaml, HTML, and several database languages.  OneCompiler helps users to write, run and share code online.
+
+
 
 ## Language References
 
