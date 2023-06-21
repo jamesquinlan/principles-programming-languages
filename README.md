@@ -16,6 +16,11 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 * General knowledge of computational process(es) for problem solving
 
 
+### Languages Learned
+
+* Racket
+* Prolog
+* Julia
 
 
 ## Principles and Techniques of Programming Languages
