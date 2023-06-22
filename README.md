@@ -19,10 +19,15 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 ### Languages Learned
 
 * Racket
+  
   [How to solve problems using Scheme - Wesley Huang](http://kyleburke.info/DB/4640/scheme.pdf) 
+
 * Prolog
+
   [The Prolog Dictionary by Bill Wilson](http://www.cse.unsw.edu.au/~billw/prologdict.html)
+
 * Julia
+
   [Documentation/ Online Manual](https://docs.julialang.org/en/v1/)
 
 
