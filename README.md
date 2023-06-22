@@ -18,11 +18,11 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 
 ### Languages Learned
 
-* Racket - read [How to solve problems using Scheme - Wesley Huang](http://kyleburke.info/DB/4640/scheme.pdf) 
+* __Racket__ - read [How to solve problems using Scheme - Wesley Huang](http://kyleburke.info/DB/4640/scheme.pdf) 
 
-* Prolog - see [The Prolog Dictionary by Bill Wilson](http://www.cse.unsw.edu.au/~billw/prologdict.html)
+* __Prolog__ - see [The Prolog Dictionary by Bill Wilson](http://www.cse.unsw.edu.au/~billw/prologdict.html)
 
-* Julia - complete [Documentation/ Online Manual](https://docs.julialang.org/en/v1/)
+* __Julia__ - complete [Documentation/ Online Manual](https://docs.julialang.org/en/v1/)
 
 
 ## Principles and Techniques of Programming Languages
