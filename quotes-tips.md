@@ -1,4 +1,4 @@
-# Quotes and Tips for Programmers
+# Tips and Quotes for Programmers
 
 
 ## Tips
