@@ -1,15 +1,10 @@
 # Language Links
 
-
-[Python](https://www.python.org)
-
 [Go](https://go.dev)
-
 [Julia](https://julialang.org)
-
-[Rust](https://www.rust-lang.org)
-
+[Python](https://www.python.org)
 [R](https://www.r-project.org)
+[Rust](https://www.rust-lang.org)
 
 
 ## Functional Programming
