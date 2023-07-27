@@ -1,6 +1,7 @@
 # Language Links
 
 * [Go](https://go.dev)
+* [Java](https://www.java.com/en/)
 * [Julia](https://julialang.org)
 * [Python](https://www.python.org)
 * [R](https://www.r-project.org)
