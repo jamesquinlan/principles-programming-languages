@@ -13,3 +13,4 @@ The following is a list of question prompts (a Q-focus) with some sample questio
 
 * [Programming Languages](1.md)
 * [Object-oriented Programming](oop.md)
+* [Functional Programming](fp.md)
