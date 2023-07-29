@@ -11,6 +11,5 @@ QFT supports the development of transferable skills that are essential for succe
 
 The following is a list of question prompts (a Q-focus) with some sample questions. 
 
-[Programming Languages](1.md)
-
-[Object-oriented Programming](oop.md)
+* [Programming Languages](1.md)
+* [Object-oriented Programming](oop.md)
