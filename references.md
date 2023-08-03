@@ -1,7 +1,7 @@
 
 ## References
 
-```
+```bibtex
 @book{friedman2001essentials,
   title={Essentials of programming languages},
   author={Friedman, Daniel P and Wand, Mitchell and Haynes, Christopher Thomas},
