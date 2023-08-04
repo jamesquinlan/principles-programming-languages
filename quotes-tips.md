@@ -17,6 +17,7 @@ Many of the following tips can be found in Henney (2010). \cite{henney201097}
 ## Quotes
 
 1. "_Whatever you undertake, act with prudence and consider the consequences_" - Anon
+2. "_Any fool can write code that a computer can understand. Good programmers write code that humans can understand._"                                       – Martin Fowler
 
 
 ### References
