@@ -1,6 +1,6 @@
 # Programming Languages Principles and Concepts
 
-The course introduces and covers the fundamental concepts of programming languages by describing the design of various language constructs, examining the design choices for these constructs, and comparing design alternatives.  In addition, it describes principles and techniques of the high-level programming language specification, including syntax and semantics, and implementation methods. Languages are considered formal constructs representing computable functions, and the course presents the primary results of computability theory. Methods of recognition for regular and context-free languages, the functional alternative to the state-based imperative paradigm, parse trees as control constructs, and concurrent programming synchronization primitives are also covered.
+The course introduces and covers the fundamental concepts of programming languages by describing the design of various language constructs, examining the design choices for these constructs, and comparing design alternatives.  In addition, it describes principles and techniques of high-level programming language specification, including syntax and semantics and implementation methods. Languages are considered formal constructs representing computable functions, and the course presents the primary results of computability theory. Methods of recognition for regular and context-free languages, the functional alternative to the state-based imperative paradigm, parse trees as control constructs, and concurrent programming synchronization primitives are also covered.
 
 
 Introduction to the fundamental concepts of formal languages and the evolution and characteristics of major programming languages. Topics include finite-state automata, regular expressions, parsing, syntax and semantics, scope and binding, and abstract data types.  
@@ -39,8 +39,9 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 
 **Concurrency**: Concurrency is the ability of a programming language to handle multiple tasks or threads simultaneously. A programming language can provide different synchronization primitives, such as locks, semaphores, and monitors, to manage concurrent access to shared resources.
 
-**Object-Oriented Programming**: Object-oriented programming is a programming paradigm that emphasizes the use of objects and classes to organize and structure code. It provides encapsulation, inheritance, and polymorphism, enabling code reuse and maintainability.
+**Object-Oriented Programming**: Object-oriented programming is a programming paradigm that emphasizes using objects and classes to organize and structure code. It provides encapsulation, inheritance, and polymorphism, enabling code reuse and maintainability.
 
+**Functional Programming**: The functional programming paradigm treats computation as evaluating mathematical functions. It emphasizes immutability, higher-order functions, and declarative code structures to achieve more predictable and concise software development.
 
 ## Topics
 
