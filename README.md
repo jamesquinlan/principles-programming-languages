@@ -47,6 +47,7 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 
 * [Introduction](topics/c1_intro.md)
 * [Design Criteria](topics/c2_design_criteria.md)
+* [Functional Programming](topics/c3_fp.md)]
 
 
 <!-- Schedule/Topics Sequence  -->
