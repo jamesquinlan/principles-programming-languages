@@ -26,7 +26,7 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 
 
 ## Textbook
-<img align="right" style="float:right;" src="louden.jpg">
+<img align="right" style="float:right;" src="images/louden.jpg">
 
 Louden, K. & Lambert K., (2012). _Programming Languages Principles and Practices_ 3rd Edition.
 
