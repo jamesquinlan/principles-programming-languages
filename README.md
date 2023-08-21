@@ -25,6 +25,17 @@ Introduction to the fundamental concepts of formal languages and the evolution a
 * __Julia__ - complete [Documentation/ Online Manual](https://docs.julialang.org/en/v1/)
 
 
+## Textbook
+<img align="right" style="float:right;" src="louden.jpg">
+
+Louden, K. & Lambert K., (2012). _Programming Languages Principles and Practices_ 3rd Edition.
+
+**Publisher**: Cengage. 
+
+**ISBN**: 9781111529413
+
+
+
 ## Principles and Techniques of Programming Languages
 
 **Syntax and Semantics**: Every programming language has syntax and semantics that define the rules for writing valid programs and their meaning, respectively. Syntax defines the structure and grammar of the language, while semantics defines the behavior of programs written in that language.
