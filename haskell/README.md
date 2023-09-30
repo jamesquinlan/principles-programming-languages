@@ -82,16 +82,21 @@ If you are new to Haskell, check out https://www.haskell.org/ghcup/steps/
 
 ```
 
+### Prime Sieve
+
+```
 primes = filterPrime [2..] where
   filterPrime (p:ps) =
     p : filterPrime [x | x <- ps, x `mod` p /= 0]
-
 
 isPrime p [] = False
 isPrime p (x:xs)
     | p == x = True
     | otherwise = isPrime p xs
+```
 
-https://www.haskelltutorials.com/guides/haskell-lists-ultimate-guide.html
+### Haskell Tutorials
+
+[Haskell Tutorials](https://www.haskelltutorials.com/guides/haskell-lists-ultimate-guide.html)
 
 
